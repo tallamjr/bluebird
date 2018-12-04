@@ -5,7 +5,6 @@ import bluebird.api.resources as res
 import bluebird.api.static as static
 from bluebird import settings
 
-
 # Subclass of the API object - allows us to customise it later if needed
 class BlueBirdApi(Api):
     def __init__(self, *args, **kwargs):

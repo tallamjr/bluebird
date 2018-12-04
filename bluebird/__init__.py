@@ -16,15 +16,15 @@ def init():
     print("BlueBird init")
 
     global API, APP, LOGGER
-    APP = api.app
-    API = api.api
+    APP = bluebird.api.api.app
+    API = bluebird.api.api
     LOGGER = APP.logger
 
     global CACHES
     CACHES['acdata'] = AcDataCache()
 
     global CLIENT
-    CLIENT = client.ApiClient()
+    CLIENT = bluebird.client.client.ApiClient()
 
 
 def client_connect():
