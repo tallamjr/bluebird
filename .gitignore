@@ -287,3 +287,6 @@ pip-selfcheck.json
 
 # NATS data
 scenarios/
+
+.DS_Store
+.vscode/
