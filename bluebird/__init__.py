@@ -9,7 +9,7 @@ CACHES = {}
 
 import bluebird.api
 import bluebird.client
-from bluebird import settings
+from . import settings
 
 
 def init():

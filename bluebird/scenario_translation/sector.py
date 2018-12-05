@@ -65,3 +65,5 @@ def parse_nats_sector(name, nats_data):
   return(Sector(name, areas))
 
 
+# TODO
+# Compute polygon covering the entire set of sectors and create it as AREA in Trafscript
