@@ -11,11 +11,17 @@ See [here](docs/InitialProto.md).
 
 ### Running
 
-Connects to a running BlueSky simulation
+Using docker, run BlueSky and BlueBird with the provided script:
 
 ```bash
-> docker-compose build
-> docker-compose up
+> ./run-docker.sh
+```
+
+Can also run locally if you have a BlueSky simulation running:
+
+```bash
+> ./install.sh
+> python ./run.py # Can also pass --bluesky_host=1.2.3.4 if you have BlueSky running somewhere else
 ```
 
 ### Commands
@@ -45,3 +51,11 @@ Currently available commands are `IC`, `POS`, and `CRE`. Example:
 ```
 
 Note: If sending a JSON body, the following HTTP header must be sent: `Content-Type: application/json`
+
+## Development
+
+Pylint can be run with the included rc file:
+
+```bash
+> pylint --rcfile .pylintrc bluebird # Can also pass paths to individual modules or packages
+```
