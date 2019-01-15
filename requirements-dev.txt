@@ -1,0 +1,3 @@
+
+# Pytest 4 is also available, can we upgrade to that?
+pytest == 3.4.*
