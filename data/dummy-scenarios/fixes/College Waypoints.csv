@@ -1,0 +1,4 @@
+fix_name,fix_displayed,fix_latitude,fix_longitude,DD_lat,MM_lat,MM_1000_lat,NS,DD_long,MM_long,MM_1000_long,EW
+01A2,0,51.530,0.127,51,31,829,N,0,7,600,W
+ABCD,1,55.945,3.187,55,56,721,N,3,11,220,W
+ABCDE,0,52.205,0.122,52,12,320,N,0,7,309,E

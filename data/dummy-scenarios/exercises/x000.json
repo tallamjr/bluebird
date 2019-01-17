@@ -1,0 +1,231 @@
+[
+    {
+        "startTime": "11:30:00",
+        "aircraft": [
+            {
+                "callsign": "TRACK1",
+                "type": "C172",
+                "departure": "LFBZ",
+                "destination": "EGSC",
+                "startPosition": "TYNE",
+                "startTime": "73810",
+                "currentFlightLevel": "330",
+                "clearedFlightLevel": "330",
+                "requestedFlightLevel": "150",
+                "route": [
+                    {
+                        "ROUTE_ELEMENT_NAME": "COBRA",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "ALLEY",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "HAYLE",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "STONE",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "PEWSI",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "CHARD",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "TAV",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "LEMUR",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "TEMMS",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "MOLLY",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "LOREL",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "EGSC",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    }
+                ]
+            },
+            {
+                "callsign": "TRACK2",
+                "type": "A320",
+                "departure": "HESH",
+                "destination": "EGCC",
+                "startPosition": "TYNE",
+                "startTime": "66600",
+                "currentFlightLevel": "340",
+                "clearedFlightLevel": "340",
+                "requestedFlightLevel": "220",
+                "route": [
+                    {
+                        "ROUTE_ELEMENT_NAME": "SHARK",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "PEWSI",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "TYN",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "SWALO",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "RYE",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "WIJNW",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "RAVEN",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "EGCC",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    },
+                    {
+                        "ROUTE_ELEMENT_NAME": "EGCC",
+                        "ROUTE_ELEMENT_TYPE": "FIX",
+                        "ROUTE_ELEMENT_SPEED": "0",
+                        "ROUTE_ELEMENT_LEVEL": "0"
+                    }
+                ]
+            }
+        ],
+        "weather": {
+            "temperature": "18",
+            "visibility": "15.00",
+            "wind": [
+                {
+                    "WIND_BOTTOM_LEVEL": "40001",
+                    "WIND_TOP_LEVEL": "99999",
+                    "WIND_DIRECTION": "8",
+                    "WIND_SPEED": "49"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "30001",
+                    "WIND_TOP_LEVEL": "40000",
+                    "WIND_DIRECTION": "350",
+                    "WIND_SPEED": "37"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "20001",
+                    "WIND_TOP_LEVEL": "30000",
+                    "WIND_DIRECTION": "330",
+                    "WIND_SPEED": "25"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "15001",
+                    "WIND_TOP_LEVEL": "20000",
+                    "WIND_DIRECTION": "310",
+                    "WIND_SPEED": "17"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "10001",
+                    "WIND_TOP_LEVEL": "15000",
+                    "WIND_DIRECTION": "300",
+                    "WIND_SPEED": "12"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "5001",
+                    "WIND_TOP_LEVEL": "10000",
+                    "WIND_DIRECTION": "290",
+                    "WIND_SPEED": "8"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "4001",
+                    "WIND_TOP_LEVEL": "5000",
+                    "WIND_DIRECTION": "280",
+                    "WIND_SPEED": "5"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "3001",
+                    "WIND_TOP_LEVEL": "4000",
+                    "WIND_DIRECTION": "280",
+                    "WIND_SPEED": "5"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "2001",
+                    "WIND_TOP_LEVEL": "3000",
+                    "WIND_DIRECTION": "280",
+                    "WIND_SPEED": "5"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "1001",
+                    "WIND_TOP_LEVEL": "2000",
+                    "WIND_DIRECTION": "280",
+                    "WIND_SPEED": "5"
+                },
+                {
+                    "WIND_BOTTOM_LEVEL": "0",
+                    "WIND_TOP_LEVEL": "1000",
+                    "WIND_DIRECTION": "280",
+                    "WIND_SPEED": "5"
+                }
+            ]
+        }
+    }
+]

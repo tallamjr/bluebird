@@ -1,0 +1,1 @@
+Dummy scenarios for testing - uses the structure of NATS scenarios with altered data

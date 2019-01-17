@@ -1,0 +1,152 @@
+[
+    {
+        "ID": "0",
+        "AOR": "Sector 00",
+        "FLOOR_FT": "14500",
+        "CEIL_FT": "19499",
+        "NUM_VERTICES": "3",
+        "vertices": [
+            {
+                "latDeg": "50",
+                "latMin": "53",
+                "latMinHundredth": "52",
+                "latDir": "N",
+                "lngDeg": "00",
+                "lngMin": "33",
+                "lngMinHundredth": "å10",
+                "lngDir": "E"
+            },
+            {
+                "latDeg": "53",
+                "latMin": "43",
+                "latMinHundredth": "04",
+                "latDir": "N",
+                "lngDeg": "01",
+                "lngMin": "47",
+                "lngMinHundredth": "16",
+                "lngDir": "E"
+            },
+            {
+                "latDeg": "51",
+                "latMin": "39",
+                "latMinHundredth": "30",
+                "latDir": "N",
+                "lngDeg": "01",
+                "lngMin": "52",
+                "lngMinHundredth": "55",
+                "lngDir": "E"
+            }
+        ],
+        "_id": "1A0Z2MaqT4dM4Y34"
+    },
+    {
+        "ID": "1",
+        "AOR": "Sector 00",
+        "FLOOR_FT": "19500",
+        "CEIL_FT": "34499",
+        "NUM_VERTICES": "5",
+        "vertices": [
+            {
+                "latDeg": "50",
+                "latMin": "27",
+                "latMinHundredth": "38",
+                "latDir": "N",
+                "lngDeg": "01",
+                "lngMin": "58",
+                "lngMinHundredth": "24",
+                "lngDir": "W"
+            },
+            {
+                "latDeg": "51",
+                "latMin": "26",
+                "latMinHundredth": "53",
+                "latDir": "N",
+                "lngDeg": "03",
+                "lngMin": "45",
+                "lngMinHundredth": "16",
+                "lngDir": "W"
+            },
+            {
+                "latDeg": "50",
+                "latMin": "33",
+                "latMinHundredth": "46",
+                "latDir": "N",
+                "lngDeg": "01",
+                "lngMin": "33",
+                "lngMinHundredth": "40",
+                "lngDir": "W"
+            },
+            {
+                "latDeg": "51",
+                "latMin": "49",
+                "latMinHundredth": "36",
+                "latDir": "N",
+                "lngDeg": "00",
+                "lngMin": "11",
+                "lngMinHundredth": "36",
+                "lngDir": "W"
+            },
+            {
+                "latDeg": "51",
+                "latMin": "34",
+                "latMinHundredth": "04",
+                "latDir": "N",
+                "lngDeg": "00",
+                "lngMin": "57",
+                "lngMinHundredth": "44",
+                "lngDir": "E"
+            }
+        ],
+        "_id": "Bfg5Idyu0cWZ6x5y"
+    },
+    {
+        "ID": "2",
+        "AOR": "Sector 00",
+        "FLOOR_FT": "17500",
+        "CEIL_FT": "34499",
+        "NUM_VERTICES": "4",
+        "vertices": [
+            {
+                "latDeg": "56",
+                "latMin": "25",
+                "latMinHundredth": "59",
+                "latDir": "N",
+                "lngDeg": "01",
+                "lngMin": "02",
+                "lngMinHundredth": "25",
+                "lngDir": "E"
+            },
+            {
+                "latDeg": "55",
+                "latMin": "51",
+                "latMinHundredth": "49",
+                "latDir": "N",
+                "lngDeg": "01",
+                "lngMin": "11",
+                "lngMinHundredth": "11",
+                "lngDir": "E"
+            },
+            {
+                "latDeg": "55",
+                "latMin": "58",
+                "latMinHundredth": "13",
+                "latDir": "N",
+                "lngDeg": "01",
+                "lngMin": "01",
+                "lngMinHundredth": "49",
+                "lngDir": "E"
+            },
+            {
+                "latDeg": "56",
+                "latMin": "19",
+                "latMinHundredth": "11",
+                "latDir": "N",
+                "lngDeg": "00",
+                "lngMin": "57",
+                "lngMinHundredth": "11",
+                "lngDir": "E"
+            }
+        ],
+        "_id": "GxTYWV8gHRZQnvMj"
+    }
+]
