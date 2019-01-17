@@ -29,7 +29,7 @@ def sector_areas(sector_description_json):
 	sector = parse_nats_sector("", sector_description_json)
 	return sector.areas
 
-@pytest.mark.parametrize('idx', [0,1,2])
+@pytest.mark.parametrize('idx', [0, 1, 2])
 def test_area(sector_areas, idx):
 	"""
 	Tests if an area can be successfully parsed
@@ -39,7 +39,7 @@ def test_area(sector_areas, idx):
 	assert area.top_level < 50000
 	assert area.top_level > area.bottom_level
 	assert area.bottom_level >= 0
-	assert area.vertices 	
+	assert area.vertices
 
 def test_sector(sector_description_json):
 	"""
@@ -53,9 +53,8 @@ def test_sector(sector_description_json):
 
 
 # TODO:
-# - test loading of sectors 
+# - test loading of sectors
 # 	- areas - done
-#		- vertices 
+#		- vertices
 #		- coordinates
 # - test translation into Trafscript
-
