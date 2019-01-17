@@ -8,9 +8,8 @@ class Coordinates:
 	Coordinates of vertices that specify sector areas
 	"""
 
-	def __init__(
-					self, lat_dir, lat_degrees, lat_minutes, lat_min_hundredth, lon_dir, lon_degrees,
-					lon_minutes, lon_min_hundredth):
+	def __init__(self, lat_dir, lat_degrees, lat_minutes, lat_min_hundredth, \
+	lon_dir, lon_degrees, lon_minutes, lon_min_hundredth):
 
 		self.lat_dir = lat_dir
 		self.lat_degrees = int(lat_degrees)
@@ -27,9 +26,9 @@ class Coordinates:
 		:return:
 		"""
 
-		traf_str = self.lat_dir + str(self.lat_degrees) + "'" + str(self.lat_minutes) + "'" + str(
-						self.lat_min_hundredth / 100 * 60) + "\"," + self.lon_dir + str(self.lon_degrees) +\
-	          "'" + str(self.lon_minutes) + "'" + str(self.lon_min_hundredth / 100 * 60) + "\""
+		traf_str = self.lat_dir + str(self.lat_degrees) + "'" + str(self.lat_minutes) + "'" + \
+							 str(self.lat_min_hundredth / 100 * 60) + "\"," + self.lon_dir + str(self.lon_degrees) +\
+               "'" + str(self.lon_minutes) + "'" + str(self.lon_min_hundredth / 100 * 60) + "\""
 
 		return traf_str
 
@@ -105,7 +104,7 @@ def parse_nats_area(nats_area):
 	"""
 
 	vertices = list(map(parse_nats_coordinates, nats_area['vertices']))
-	area = Area(nats_area['ID'], nats_area['CEIL_FT'], nats_area['FLOOR_FT'], vertices)
+	area = Area(nats_area['ID'], int(nats_area['CEIL_FT']), int(nats_area['FLOOR_FT']), vertices)
 
 	return area
 
