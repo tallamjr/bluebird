@@ -59,7 +59,7 @@ def ddeg2degminsec(degrees):
 	seconds = (dminutes - minutes)/60
 	return deg, minutes, seconds
 
-def degdmin2degminsec(degrees, dminutes):	
+def degdmin2degminsec(degrees, dminutes):
 	"""
 	Converts coordinates in degrees-decimal minutes to degrees-minutes-seconds
 	:param degrees:

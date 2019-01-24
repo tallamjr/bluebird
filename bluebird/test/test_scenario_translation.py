@@ -7,6 +7,7 @@ import json
 import pytest
 
 from bluebird.scenario_translation import parse_nats_sector
+import bluebird.scenario_translation.coordinates as coord
 
 
 @pytest.fixture
@@ -50,6 +51,23 @@ def test_sector(sector_description_json):
 
 	parsed = parse_nats_sector("dummy sector", sector_description_json)
 	assert parsed.areas  # number of parsed areas is non-zero
+
+def test_coordinate_formats():
+	lat, lon = 51.5254607,-0.12926379999999998   # The British Library location
+	lat1, mlat1 = coord.ddeg2degdmin(lat)
+	lat2, mlat2, slat2 = coord.ddeg2degminsec(lat)
+	lat3, mlat3, slat3 = coord.degdmin2degminsec(lat1, mlat1)
+	lat4, mlat4 = coord.degminsec2degdmin(lat2, mlat2, slat2)
+
+	dlat_trans1 = coord.degdmin2ddeg(lat1, mlat1)
+	dlat_trans2 = coord.degminsec2ddeg(lat2, mlat2, slat2)
+	dlat_trans3 = coord.degminsec2ddeg(lat3, mlat3, slat3)
+	dlat_trans4 = coord.degdmin2ddeg(lat4, mlat4)
+
+	assert lat == pytest.approx(dlat_trans1)
+	assert lat == pytest.approx(dlat_trans2)
+	assert lat == pytest.approx(dlat_trans3)
+	assert lat == pytest.approx(dlat_trans4)
 
 
 # TODO:
