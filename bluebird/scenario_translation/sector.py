@@ -1,11 +1,11 @@
 """
-Contains logic to map NATS scenario data into the BlueSky format
+Contains logic to map NATS sector scenario data into the BlueSky format
 """
 
 
 class Coordinates:
 	"""
-	Coordinates of vertices that specify sector areas
+	Coordinates of vertices that specify sector areas, in decimal degreees
 	"""
 
 	def __init__(self, lat_dir, lat_degrees, lat_minutes, lat_min_hundredth, \
@@ -98,7 +98,7 @@ def parse_nats_coordinates(vert):
 
 def parse_nats_area(nats_area):
 	"""
-	Converts a NATS area to an :Area: object
+	Converts a NATS area to an :Area: object. Area is a subset of a sector.
 	:param a:
 	:return:
 	"""
