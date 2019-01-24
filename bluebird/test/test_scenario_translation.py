@@ -53,7 +53,10 @@ def test_sector(sector_description_json):
 	assert parsed.areas  # number of parsed areas is non-zero
 
 def test_coordinate_formats():
-	lat, lon = 51.5254607,-0.12926379999999998   # The British Library location
+	"""
+	Testing translation between individual geographic coordinate formats 
+	"""
+	lat, lon = 51.5254607, -0.12926379999999998   # The British Library location
 	lat1, mlat1 = coord.ddeg2degdmin(lat)
 	lat2, mlat2, slat2 = coord.ddeg2degminsec(lat)
 	lat3, mlat3, slat3 = coord.degdmin2degminsec(lat1, mlat1)

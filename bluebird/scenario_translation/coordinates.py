@@ -44,7 +44,7 @@ def ddeg2degdmin(degrees):
 	:return: degrees, minutes
 	"""
 	deg = floor(degrees)
-	dminutes = (degrees - deg)/60
+	dminutes = (degrees - deg)*60
 	return deg, dminutes
 
 def ddeg2degminsec(degrees):
@@ -54,9 +54,9 @@ def ddeg2degminsec(degrees):
 	:return: degrees, minutes, seconds
 	"""
 	deg = floor(degrees)
-	dminutes = (degrees - deg)/60
+	dminutes = (degrees - deg)*60
 	minutes = floor(dminutes)
-	seconds = (dminutes - minutes)/60
+	seconds = (dminutes - minutes)*60
 	return deg, minutes, seconds
 
 def degdmin2degminsec(degrees, dminutes):
@@ -67,5 +67,5 @@ def degdmin2degminsec(degrees, dminutes):
 	:return: degrees, minutes, seconds
 	"""
 	minutes = floor(dminutes)
-	seconds = (dminutes - minutes)/60
+	seconds = (dminutes - minutes)*60
 	return degrees, minutes, seconds
