@@ -1,8 +1,8 @@
 # whitelist
-# branches:
-#   only:
-#   - travis
-#   - travis-dev
+branches:
+  only:
+  - travis
+  - travis-dev
 
 language: python
 python:
