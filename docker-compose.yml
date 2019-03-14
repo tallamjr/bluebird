@@ -11,6 +11,8 @@ services:
       - bluebird
     networks:
       - share
+    volumes:
+      - .:/app
   bluesky:
     # Change this to turinginst/bluesky:1.0 when published
     image: bluesky:latest
