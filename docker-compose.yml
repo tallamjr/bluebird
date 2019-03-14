@@ -2,6 +2,15 @@
 version: '3.7'
 
 services:
+  test:
+    container_name: test
+    build: .
+    command: pytest -v tests
+    depends_on:
+      - bluesky
+      - bluebird
+    networks:
+      - share
   bluesky:
     # Change this to turinginst/bluesky:1.0 when published
     image: bluesky:latest
