@@ -5,7 +5,7 @@ services:
   test:
     container_name: test
     build: .
-    command: pytest -v tests
+    command: pytest ./tests/
     depends_on:
       - bluesky
       - bluebird
