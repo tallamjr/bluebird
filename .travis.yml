@@ -12,8 +12,8 @@ services:
   - docker
 
 before_install:
-  git submodule update --init --recursive
-  docker build ./bluesky --tag=bluesky
+  - git submodule update --init --recursive
+  - docker build ./bluesky --tag=bluesky
 
 install:
   # - pip install -r requirements.txt
