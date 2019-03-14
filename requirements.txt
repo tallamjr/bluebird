@@ -9,3 +9,6 @@ matplotlib
 numpy
 msgpack
 zmq
+
+# dev
+pytest == 4.1.*
