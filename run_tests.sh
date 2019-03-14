@@ -25,10 +25,12 @@ if [ $? -ne 0 ] ; then
 fi
 
 # wait for the test service to complete and grab the exit code
-TEST_EXIT_CODE=$(docker wait ci_test_1)
+# TEST_EXIT_CODE=$(docker wait ci_test_1)
+TEST_EXIT_CODE=$(docker wait test)
 
 # output the logs for the test (for clarity)
-docker-compose -p ci logs ci_test_1
+# docker-compose -p ci logs ci_test_1
+docker-compose -p ci logs test
 
 # inspect the output of the test and display respective message
 if [ -z ${TEST_EXIT_CODE+x} ] || [ "$TEST_EXIT_CODE" -ne 0 ] ; then
