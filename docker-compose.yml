@@ -2,15 +2,15 @@
 version: '3'
 
 services:
-  test:
-    container_name: test
-    build: .
-    command: pytest ./tests/
-    depends_on:
-      - bluesky
-      - bluebird
-    volumes:
-      - .:/usr/src/app
+  # test:
+  #   container_name: test
+  #   build: .
+  #   command: pytest -v ./tests/
+  #   depends_on:
+  #     - bluesky
+  #     - bluebird
+  #   volumes:
+  #     - .:/usr/src/app
   bluesky:
     # Change this to turinginst/bluesky:1.0 when published
     image: bluesky:latest

@@ -1,5 +1,3 @@
-# # To use Docker on Travis,  need to have sudo capabilities.
-# sudo: required
 
 # whitelist
 branches:
@@ -22,12 +20,15 @@ install:
   - pip install -r requirements.txt
   - pip install -r requirements-dev.txt
   - pip install pytest-docker-compose
-  # - docker-compose build
 
 script:
-  # - docker-compose up
   - pytest -v ./tests/
-  # - docker-compose run test
 
-# after_script:
-#   - docker-compose down
+## To use below instead requires to:
+## - define a `test` container in docker-compose.yml
+## - add `pytest` to requirements.txt
+# install:
+  # - docker-compose build
+
+# script:
+#   -docker-compose run test
