@@ -9,8 +9,6 @@ services:
     depends_on:
       - bluesky
       - bluebird
-    # networks:
-    #   - share
     volumes:
       - .:/usr/src/app
   bluesky:
@@ -33,7 +31,3 @@ services:
       - 5001:5001
     environment:
       - BS_HOST=bluesky
-
-# networks:
-#   share:
-#     driver: bridge
