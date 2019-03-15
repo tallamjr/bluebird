@@ -23,5 +23,7 @@ install:
 script:
   - docker-compose up
   - pytest ./tests/
+  
+after_script:
   - docker-compose down
   # - docker-compose run test
