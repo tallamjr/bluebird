@@ -16,6 +16,9 @@ from bluebird.cache import AC_DATA
 from . import API_PREFIX, EXTRAS, TEST_ACIDS, TEST_DATA, TEST_DATA_KEYS
 
 
+pytest_plugins = ["docker_compose"]
+
+
 @pytest.fixture
 def client():
 	"""
