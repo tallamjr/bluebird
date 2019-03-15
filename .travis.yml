@@ -21,6 +21,6 @@ install:
   - docker-compose build
 
 script:
+  - docker-compose up
   - pytest ./tests/
-  # - docker-compose up
   # - docker-compose run test
